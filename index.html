@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alex+Brush&family=Allura&family=Amatic+SC&family=Cinzel:wght@500&family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@1,600&family=Cormorant:wght@400;500&family=Edu+SA+Beginner:wght@500&family=Fredericka+the+Great&family=Gruppo&family=Indie+Flower&family=Julee&family=Jura:wght@500&family=Kaushan+Script&family=Marmelad&family=Monoton&family=Nanum+Brush+Script&family=Orbitron:wght@400;800&family=Parisienne&family=Poiret+One&family=Poppins:ital@1&family=Saira:ital@1&family=Ysabeau+Infant&display=swap" rel="stylesheet">
+   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+   <style>
+    .banner-image{
+        background-image: url(./travelimages/neom-207NEuFvjlg-unsplash\(1\).jpg);
+        background-size: cover;
+        }
+ 
+</style>
+</head>
+<body>
+  <div class="container-sm-12">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+          <a href="#" class="navbar-brand" style="font-family: 'Cormorant Garamond', serif;font-size: 40px;color: white;">Travelious</a>
+          <button 
+          type="button"
+          class="navbar-toggler"
+          data-bs-target="#navbarNav"
+          data-bs-toggle="collapse"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle Navbar"
+          >
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collpase navbar-collapse" id="navbarNav">
+              <div class="mx-auto"></div>
+  
+             <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a href="#" class="nav-link text-white" style="font-family: 'Comfortaa', cursive;">Explore</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link text-white" style="font-family: 'Comfortaa', cursive;">Gallery</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link text-white" style="font-family: 'Comfortaa', cursive;">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link text-white" style="font-family: 'Comfortaa', cursive;">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link text-white" style="font-family: 'Comfortaa', cursive;">Contact Us</a>
+              </li>
+             </ul>
+          </div>
+      </div>
+  </nav>
+  <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+      <div class="content text-center">
+          <h2 class="content text-center my-5" style="font-family: 'Ysabeau Infant', sans-serif;">Indulge your adventerous spirit</h2>
+          <h1 class="text-black" style="font-family: 'Kaushan Script', cursive; font-size: 100px; ">Your adventure <br> starts here!</h1>
+      </div>
+  </div>
+  </div>
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>
+    var nav = document.querySelector('nav');
+    window.addEventListener('scroll', function(){
+        if(window.pageYOffset >100){
+            nav.classList.add('bg-dark','shadow');
+        }else{
+            nav.classList.remove('bg-dark','shadow');
+        }
+    });
+
+    
+</script>
+    <div class="container-fluid pt-5" style="background-image: url(./travelimages/daniel-hohe-1VgmgXW3Yuk-unsplash.jpg);background-size: cover;">
+        <h2 style="font-family: 'Ysabeau Infant', sans-serif; font-size: 20px; text-align: center;">SPECIAL FEATURES</h2>
+        <h1 style="font-family: 'Poiret One', cursive; font-size: 40px; font-weight: bolder; text-align: center;">See some benifit of joining us</h1>
+        <div class="row mt-5">
+            <div class="col-6">
+           <div class="container">
+            <div class="col">
+                <div class="col-sm-12 ">
+          <i class="bi bi-1-circle fa-2x ms-2"></i>
+          <h4 class="ms-2" style=" font-family: 'Ysabeau Infant', sans-serif; font-size: 36px;">Get best deals</h4>
+                    <p class="ms-2">Our best travel deals on a wide array of tour packages let you <br>make the most of your holiday that you are looking forward <br>to spend with us.</p>
+    
+                </div>
+                <div class="col-sm-12">
+                    <i class="bi bi-2-circle fa-2x ms-2"></i>
+                    <h4 class="ms-2" style=" font-family: 'Ysabeau Infant', sans-serif; font-size: 36px;">100% price transparency</h4>
+                              <p class="ms-2">
+                                Our aim is to empower the customer to make a well-informed, <br> cost-effective and a smart choice for a memorable travel,<br> a choice which suits his pocket as well as his expectations <br>from a travel booking.</p>
+                </div>
+                <div class="col-sm-12">
+                    <i class="bi bi-3-circle fa-2x ms-2"></i>
+                    <h4 class="ms-2" style=" font-family: 'Ysabeau Infant', sans-serif; font-size: 36px;">Travel with more confidence</h4>
+    
+                    <p class="ms-2" >Discover the robust safety procedures we're putting in place on <br>our tours, including measures for social distancing and detailed <br>hygiene protocols.
+                    </p>
+                </div>
+            </div>
+           </div>
+            </div>
+            <div class="col-sm-6">
+                <img id="pic" src="./travelimages/ivana-cajina-TUXUCVXmjQk-unsplash.jpg"  alt="">
+           <img id="pic2" src="./travelimages/element5-digital-uE2T1tCFsn8-unsplash.jpg"  alt="">
+            </div>
+        </div>
+    </div>
+
+<!-- ***************************************** -->
+<div class="container py-5" >
+  <h1 class="text-center" style="font-family: 'Poiret One', cursive; font-size: 40px; font-weight: bolder;">Explore to destinations</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+    <div class="col">
+      <div class="card">
+        <img src="./travelimages/fahrul-azmi-BCEexmxL9EQ-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Taj Mahal</h5>
+          <p class="card-text"><i class="bi bi-geo-alt-fill"></i> Agra, Uttar Pradesh</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+         <h3 id="rupees">&#8377; 6000/per person</h3>
+         <button class="btn btn-dark">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./travelimages/lautaro-chamo-QEHSP7FNIyA-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Thar Desert</h5>
+          <p class="card-text"><i class="bi bi-geo-alt-fill"></i> Jaipur, Rajasthan</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+         <h3 id="rupees">&#8377; 8000/per person</h3>
+         <button class="btn btn-dark">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./travelimages/sri-gowda-pdIe9hAcaP4-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pangong Lake</h5>
+          <p class="card-text"><i class="bi bi-geo-alt-fill"></i> Ladakh, India</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+         <h3 id="rupees"> &#8377;9000/per person</h3>
+         <button class="btn btn-dark">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./travelimages/nandhu-kumar-SMNA3WChTmo-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tea Plantation</h5>
+          <p class="card-text"><i class="bi bi-geo-alt-fill"></i> Munnar, Idukki</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+         <h3 id="rupees">&#8377; 3000/per person</h3>
+         <button class="btn btn-dark">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./travelimages/hemendra-ahuja-toCmA9wFfeE-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Chalal Trek</h5>
+          <p class="card-text"><i class="bi bi-geo-alt-fill"></i> Katagla Inn, Himachal Pradesh</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+         <h3 id="rupees">&#8377;10000/per person</h3>
+         <button class="btn btn-dark">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./travelimages/bhupendra-singh-3n0FEnkoa4s-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Singahad Fort</h5>
+          <p class="card-text"><i class="bi bi-geo-alt-fill"></i> Thoptewadi, Maharashtra</p>
+        </div>
+        <div class="d-flex justify-content-around mb-5">
+         <h3 id="rupees"> &#8377;10000/per person</h3>
+         <button class="btn btn-dark">Book Now</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- hexagon-->
+<div class="container-flex">
+  <h1 style="font-family: 'Poiret One', cursive; font-size: 40px; font-weight: bolder; text-align: center;">Memories</h1>
+  <div class="grid">
+    <ul id="hexGrid">
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image:url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;w=1080&amp;fit=max&amp;s=faa4e192f33e0d6b7ce0e54f15140e42);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+        
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+                <div class='img' style='background-image: url(https://images.unsplash.com/photo-1528702748617-c64d49f918af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1647891940243-77a6483a152e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8NTZ8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1519160558534-579f5106e43f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1553697388-94e804e2f0f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+         <div class='img' style='background-image: url(https://images.unsplash.com/photo-1583583395631-77f26c483050?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGhleXlhbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1598190896090-9dc5c70361d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW5kaWFuJTIwZWxlcGhhbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(./travelimages/holly-mandarich-7MrXw_o7Eo4-unsplash.jpg);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(./travelimages/jared-rice-k3pYa0CDLl0-unsplash.jpg);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+      
+     <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image:url(https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJhdmVsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+        <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1528543606781-2f6e6857f318?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+          <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+                <div class='img' style='background-image: url(https://images.unsplash.com/photo-1499363536502-87642509e31b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+        <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1551918120-9739cb430c6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+        <li class="hex">
+        <div class="hexIn">
+          <a class="hexLink" href="#">
+            <div class='img' style='background-image: url(https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);'></div>
+            <h1 id="demo1">This is a title</h1>
+            <p id="demo2">Some sample text about the article this hexagon leads to</p>
+          </a>
+        </div>
+      </li>
+    </ul>
+      </div>
+  </body>
+  </html>
+  
+</div>
+
+
+
+<!-- blog -->
+<div class="container  text-center mt-5" style="font-family: 'Poiret One', cursive; font-size: 25px; font-weight: bolder; ">
+    <h1>Our best blogs</h1>
+    </div>
+
+<div class="container mt-5 ">
+    <div class="row">
+        <div class="col-6">
+            <div class="card-transparent mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images.unsplash.com/photo-1524613032530-449a5d94c285?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80"
+                     alt=""
+                      class="img-fluid" style="border-radius: 200px;"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title ms-4" style="font-family: 'Allura', cursive; font-weight: bolder; font-size:x-large;">Beautiful India....Let's Travel!</h5>
+                      <p class="card-text text-black ms-4 mt-4">
+                       India is the most popular destinatons in the world.The country is known for its rich cultural heritage, diverse geography, and historical landmarks, which attract tourists from all over the world.
+                      
+                    </p>
+                      
+                    
+                    </div>
+                  </div>
+                </div>
+              </div> 
+        </div>
+        <div class="col-6">
+            <div class="card-transparent mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images.unsplash.com/photo-1568668392383-58c369615742?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=419&q=80"
+                      alt="" 
+                      class="img-fluid" style="border-radius: 200px;"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title ms-4"  style="font-family: 'Allura', cursive; font-weight: bolder; font-size:x-large;">Romantic moments under <br> Eiffel Tower</h5>
+                      <p class="card-text text-black ms-4 mt-4">
+                       Italy is one of the most popular destinations in the world.From the bustling streets of Naples to Rome's breath-taking architecture, Italy is a country that never fails to wow. Check out our recommendations.
+                      </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-6">
+            <div class="card-transparent mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images.unsplash.com/photo-1624890240392-da0b1aa01c90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80"
+                      alt=""
+                      class="img-fluid" style="border-radius: 200px;"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title ms-4" style="font-family: 'Allura', cursive; font-weight: bolder; font-size:x-large;">Ledakh adventure awaits!</h5>
+                      <p class="card-text text-black ms-4 mt-4">
+                        Ladakh is most famous for breathtaking landscapes, the crystal clear skies, the highest mountain passes, thrilling adventure activities, Buddhist Monasteries and festivals.
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-6">
+            <div class="card-transparent mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="https://images.unsplash.com/photo-1606253353233-4a26e2c114bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80"
+                      alt=""
+                      class="img-fluid" style="border-radius: 200px;"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title ms-4" style="font-family: 'Allura', cursive; font-weight: bolder; font-size:x-large;">New experience on desert islands with friends</h5>
+                      <p class="card-text text-black ms-4 mt-4">
+                        A party with friends, good food and a view of the sea is not a bad way to spend the weekend. • Say yes to your adventure, wherever it takes you.
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+<!-- reviews -->
+<div class="container mt-5">
+    <h1 class="ms-5"style="font-family: 'Poiret One', cursive; font-size: 35px; font-weight: bolder;">What our travellers say..</h1>
+</div>
+
+ <div class="container mt-5"> 
+    <div class="row">
+        <div class="col-6">
+            <div class="card" style="box-shadow: 5px 5px 5px 2px;border-radius: 30px;">
+                <div class="card-body">
+                    <i class="bi bi-person-circle fa-2x ms-2"></i> 
+
+                       " What sets <b>Travelious</b> apart is their ability to understand the unique requirements of their clients. Their personalized approach to lead generation ensures that I receive leads tailored to my specific target audience and niche. This has not only saved me precious time and resources but has also significantly increased my lead-to-customer conversion rate."
+</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-6">
+            <div class="card" style="box-shadow: 5px 5px 5px 2px;border-radius: 30px;">
+                <div class="card-body">
+                    <i class="bi bi-person-circle fa-2x ms-2"></i>
+                    
+                    " Their customer support team is exceptional. They are always available to address any queries or concerns promptly, ensuring a smooth and seamless experience throughout the journey. This level of dedication and transparency has fostered a strong sense of trust and confidence in their services. Easy and very helpful online and by phone."</p>
+                </div>
+              </div>
+        </div>
+    </div>
+ </div>
+
+ <footer class="bg-dark text-center text-white mt-5" >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example29" class="form-control" />
+                <label class="form-label" for="form5Example29">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://travelious.com/">travelious.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+</html>
